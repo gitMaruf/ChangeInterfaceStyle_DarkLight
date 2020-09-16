@@ -1,8 +1,10 @@
-# User Interface Style (Dark Light)
+# User Interface Style (Dark Light), User Defaults
 
-* In this project we will change user interface style acrros the entire apps and we will save it ot user defaults
+![cover](doc/cover.gif)
 
-> Steps: Create a singel view xcode project, write those following code into view controller
+* In this project we will change user interface style across the entire apps and we will save it to user defaults
+
+> Steps: Create a single view Xcode project, write those following code into view controller
 
 ### What you will learn
 
