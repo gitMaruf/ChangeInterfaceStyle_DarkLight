@@ -1,13 +1,17 @@
-//
-//  ViewController.swift
-//  ChangeInterfaceStyle_DarkLight
-//
-//  Created by Maruf Howlader on 9/16/20.
-//  Copyright © 2020 Creative Young. All rights reserved.
-//
+# User Interface Style (Dark Light)
 
-import UIKit
+* In this project we will change user interface style acrros the entire apps and we will save it ot user defaults
 
+> Steps: Create a singel view xcode project, write those following code into view controller
+
+### What you will learn
+
+* Segment Controller
+* User Interface Style
+* User Defaults
+
+
+```swift
 class ViewController: UIViewController {
     
     let segment: UISegmentedControl = {
@@ -65,3 +69,6 @@ class ViewController: UIViewController {
     }
     
 }
+```
+
+

@@ -14,6 +14,7 @@
 		3B9518532511E56C007300D6 /* ChangeInterfaceStyle_DarkLight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B9518512511E56C007300D6 /* ChangeInterfaceStyle_DarkLight.xcdatamodeld */; };
 		3B9518552511E574007300D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9518542511E574007300D6 /* Assets.xcassets */; };
 		3B9518582511E574007300D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9518562511E574007300D6 /* LaunchScreen.storyboard */; };
+		3B9518612511E5FA007300D6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3B9518602511E5FA007300D6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3B9518542511E574007300D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B9518572511E574007300D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B9518592511E574007300D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B9518602511E5FA007300D6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,8 @@
 		3B95183C2511E56C007300D6 = {
 			isa = PBXGroup;
 			children = (
+				3B95185F2511E5F9007300D6 /* doc */,
+				3B9518602511E5FA007300D6 /* README.md */,
 				3B9518472511E56C007300D6 /* ChangeInterfaceStyle_DarkLight */,
 				3B9518462511E56C007300D6 /* Products */,
 			);
@@ -68,6 +72,13 @@
 				3B9518512511E56C007300D6 /* ChangeInterfaceStyle_DarkLight.xcdatamodeld */,
 			);
 			path = ChangeInterfaceStyle_DarkLight;
+			sourceTree = "<group>";
+		};
+		3B95185F2511E5F9007300D6 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = doc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +141,7 @@
 			files = (
 				3B9518582511E574007300D6 /* LaunchScreen.storyboard in Resources */,
 				3B9518552511E574007300D6 /* Assets.xcassets in Resources */,
+				3B9518612511E5FA007300D6 /* README.md in Resources */,
 				3B9518502511E56C007300D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
